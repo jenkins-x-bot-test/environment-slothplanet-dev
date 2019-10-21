@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:slothplanet/adminUser:password
+  username: admin
+dashboardAuthID: vault:slothplanet:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:slothplanet:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:slothplanet/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:slothplanet/prow:hmacToken
